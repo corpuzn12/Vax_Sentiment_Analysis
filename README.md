@@ -1,3 +1,11 @@
+# Vaccine Sentiment Analysis
+Vaccine Sentiment Analysis of Twitter data between December 2020 and November 2021. This project was a graded coursework for [ECON 630](https://catalog.usfca.edu/preview_course_nopop.php?catoid=37&coid=550841) .
+
+<p>
+
+Please see the [Markdown Version](https://rpubs.com/corpuzn12/856572) .
+
+  
 ## **Overview**
 <p> 
 The CDC has officially confirmed the first US case of the Omicron variant earlier this month and the urgency to reach the remaining 80 million unvaccinated Americans is back at the forefront. However, the sentiments of these individuals range from distrust to blind faith towards more holistic approaches against COVID-19 and thus, it might be relevant for government agencies to analyze the most candid sentiments of the public towards vaccines in order to vaccinate those who remain hesitant.<p/>
@@ -44,3 +52,15 @@ To further vet the proxy terms that were tracked in the previous analysis, word 
 
 ### **Valence Aware Dictionary and sEntiment Reasoner (VADER) Lexicon**
 The VADER package was used to generate sentiment scores for each entry and the resulting distribution of compound scores over time. was compared with the other time series graphs from the previous techniques in order to further validate our working timeline.
+
+<p/>
+
+Please see the Markdown version for more information: 
+
+##  **Conclusion**
+<p/>
+Through the several approaches that we employed in determining whether vaccine sentiment became more positive ,it was evident that both types of sentiments dwindled over time and that the positive sentiments were marginally more pronounced than the negative sentiments between December 2020 and November 2021. Given that the positive sentiment was only marginally dominant than the negative sentiment, for the terms that we specifically analyzed, it was more appropriate to conclude that the results were inconclusive. The “unsupervised” nature of our inquiry would simply require a more dramatic contrast between these sentiments in order to assert that any shifts in sentiments occurred. 
+<p/>
+Furthermore, only some terms were analyzed using our methodology and a more systematic approach can further enhance the robustness of our conclusion. For instance, a dataset with a “clean” location feature can be used next time to add more specificity to the historical data and the type of sentiments to expect. Then, instead of using the word embeddings approach as a supplementary vetting tool for proxy terms, we can use it as the primary tool for creating our list of proxy terms. This approach can reduce the number of terms to track so that we can pragmatically analyze all of the terms through the various time series analyses that were used in this project. Hence, in seeing the overall behavior of these well vetted words in terms of its frequency, semantic contribution and VADER generated sentiment scores, we are able to systematically chart any shifts in sentiment for all the terms and cross-reference it precisely with historical data. Please see
+
+Ultimately, vaccination efforts include some element of translational work. Given that some palpable insights can be derived from certain NLP approaches, government agencies can leverage these tools in properly approaching the unvaccinated members of the community and mitigate the further spread of the virus in the United States.
