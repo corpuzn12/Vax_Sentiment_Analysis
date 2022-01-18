@@ -55,7 +55,7 @@ The VADER package was used to generate sentiment scores for each entry and the r
 
 <p/>
 
-Please see the Markdown version for more information: 
+Please see the Markdown version for more information.
 
 ##  **Conclusion**
 <p/>
